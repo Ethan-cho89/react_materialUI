@@ -1,8 +1,15 @@
 import './app.css';
+import Boxes from './component/boxes/boxes';
+import Containers from './component/containers/containers';
+import containers from './component/containers/containers';
+import Grids from './component/grids/grids';
+import Grids1 from './component/grids/grids1';
 
 function App() {
   return (
-    <h1>hello</h1>
+    <div className='appWrapper'> 
+      <Grids1 />
+    </div>
   );
 }
 
