@@ -10,11 +10,12 @@ import Grids1 from './component/layout/grids/grids1';
 import ErrorRadios from './component/inputs/radios/errorRadios';
 import Radios from './component/inputs/radios/radios';
 import TextFields from './component/inputs/textField/textFields';
+import TextField2 from './component/inputs/textField/textField2';
 
 function App() {
   return (
     <div className='appWrapper'> 
-      <TextFields />
+      <TextField2 />
     </div>
   );
 }
