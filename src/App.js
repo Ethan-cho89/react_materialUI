@@ -18,12 +18,13 @@ import Progress2 from './component/feedback/progress/progress2';
 import FormDialog from './component/feedback/dialog/formDialog';
 import Backdrop1 from './component/feedback/backdrop/backdrop1';
 import Modal1 from './component/utils/modal/modal1';
-
+import Popover1 from './component/utils/popover/popover1';
 function App() {
   return (
     <div className='appWrapper'> 
       <FormDialog />
       <Modal1 />
+      <Popover1 />
     </div>
   );
 }
